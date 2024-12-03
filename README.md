@@ -1,58 +1,49 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
-
+## FAKE NEWS DETECTOR 
+This project addresses spread of misinfromation by utilizing machine learning techniques, specifically supervised learning algorithms, to detect fake news articles
 ## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
-
+The biggest challenge in the digital age is the spread of misinformation to society. This work has discussed the utilization of a strong supervised algorithm for learning machines, that is, Support Vector Machines in the detection of fake news through the utilization of a labeled news articles dataset which has been preprocessed by means of tokenization, stemming, and TF-IDF-Vectorized feature representations. Being trained to classify an article's authenticity as genuine or false based on such characteristics, the SVM model boasts an impressive capability in fighting misinformation. Our results have shown that SVM can be a robust tool for fighting the trojan horse of fake news and point machine learning based multimedia similarity assessments as being considered to be used as a means of improving media literacy and information integrity in today's increasingly digital landscape.
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+- Higher Detection Accuracy.
+- The system is designed for real-time fake news detection.
+- The proposed system is scalable, capable of handling large volumes of data.
+- Better contextual Understanding.
+- the proposed system can adapt to evolving trends in fake news.
 
 ## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
+* Operating System: Windows, macOS, or Linux (Ubuntu recommended):
+* Development Environment: Python (for machine learning and data analysis), JavaScript (for web interfaces).
+* Deep Learning Frameworks: TensorFlow, Keras, PyTorch 
+* Image Processing Libraries: OpenCV is essential for efficient image processing 
 * Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
+* IDE: Use of Google colab as the Integrated Development Environment for coding, debugging, and version control integration.
 * Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
 
 ## System Architecture
-<!--Embed the system architecture diagram as shown below-->
-
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
-
+![sysa](https://github.com/user-attachments/assets/5fcfd72f-c1a7-4d87-b28d-4452c7e14298)
 
 ## Output
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output1 - Converting multi-class labels into binary class(fake or true) labels and predicting
+![Screenshot (73)](https://github.com/user-attachments/assets/83f73c2c-ff3d-4844-ac47-dd849f1579b0)
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
-
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
-
+#### Output2 - Accuracy
+![Screenshot (74)](https://github.com/user-attachments/assets/704de955-1fc8-44af-93e8-04e034ba85db)
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+In this project, we have successfully implemented a Fake News Detection System using the Support Vector Machine (SVM) algorithm, which effectively classifies news articles as either real or fake. Through preprocessing techniques such as tokenization, stemming, and feature extraction using TF-IDF, the model can process textual data efficiently. The SVM algorithm has shown robust performance in distinguishing fake news from legitimate articles, demonstrating its potential in combating misinformation in the digital age. This project not only showcases the power of machine learning in solving real-world problems but also emphasizes the importance of improving media literacy and information integrity in today’s rapidly evolving digital landscape.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+1. M. Park and S. Chai, "Constructing a User-Centered Fake News Detection Model by Using Classification Algorithms in Machine Learning Techniques," IEEE Access, vol. 11, pp. 71517-71527, 2023, doi: 10.1109/ACCESS.2023.3294613.
+
+2. C. Xu and M. -T. Kechadi, "An Enhanced Fake News Detection System With Fuzzy Deep Learning," IEEE Access, vol. 12, pp. 88006-88021, 2024, doi: 10.1109/ACCESS.2024.3418340.
+
+3. L. Sun and H. Wang, "Topic-Aware Fake News Detection Based on Heterogeneous Graph," IEEE Access, vol. 11, pp. 103743-103752, 2023, doi: 10.1109/ACCESS.2023.3318483.
+
+4. A. H. J. Almarashy, M. -R. Feizi-Derakhshi and P. Salehpour, "Enhancing Fake News Detection by Multi-Feature Classification," IEEE Access, vol. 11, pp. 139601-139613, 2023, doi: 10.1109/ACCESS.2023.3339621.
+
+5. C. -O. Truică, E. -S. Apostol, R. -C. Nicolescu and P. Karras, "MCWDST: A Minimum-Cost Weighted Directed Spanning Tree Algorithm for Real-Time Fake News Mitigation in Social Media," IEEE Access, vol. 11, pp. 125861-125873, 2023, doi: 10.1109/ACCESS.2023.3331220.
 
 
 
